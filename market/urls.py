@@ -44,4 +44,5 @@ urlpatterns = [
     path('product/', include('apps_list.product.urls')),
     path('category/', include('apps_list.category.urls')),
     path('review/', include('apps_list.review.urls')),
+    # path('favorites/',include('apps_list.favorites.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
